@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- NV 101 -->
+
+        <nav class="w-[100%] h-auto bg-gray-100 py-2 px-2">
+
+
+            <div class="hidden md:flex justify-between items-center">
+                <img src="/src/apex images/download.png" alt="logo">
+                <div>
+                    <ul class="flex justify-center items-center font-semibold">
+                        <li class="px-3"><a href="/">Demo</a></li>
+                        <li class="px-3"><a href="/">About</a></li>
+                        <li class="px-3"><a href="/">Blog</a></li>
+                        <li class="px-3"><a href="/">Pricing</a></li>
+                        <li class="px-3"><a href="/">Contact</a></li>
+                        <li class="px-3"><a href="/">Login</a></li>
+                        <li class="px-3"><button class="w-auto h-auto px-3 py-2 rounded bg-orange-500 font-bold text-white lg:ml-10">Get Started</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center md:hidden" id="menu-closed">
+                <img src="/src/apex images/download.png" alt="logo">
+                <img src="/src/apex images/menu-closed.png" class="w-[25px]" id="open-icon" alt="menu icon">
+            </div>
+
+            <div id="menu-opened" class="hidden md:hidden">
+
+                <div class="flex justify-between items-center">
+                    <img src="/src/apex images/download.png" alt="menu logo">
+                    <img src="/src/apex images/menu-opened.png" class="w-[25px]" id="close-icon" alt="menu icon">
+                </div>
+                
+                <div class="pt-[20px] pl-[20px] font-semibold">
+                    <ul>
+                        <li class="py-4"><a href="/">Demo</a></li>
+                        <li class="py-4"><a href="/">About</a></li>
+                        <li class="py-4"><a href="/">Blog</a></li>
+                        <li class="py-4"><a href="/">pricing</a></li>
+                        <li class="py-4"><a href="/">Contact</a></li>
+                        <li class="w-[30%] text-center py-2 rounded bg-orange-500 font-bold text-white"><a href="/">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="w-full h-auto py-[10px] px-[10px] md:flex justify-between items-center md:px-[20px]">
+
+            <div class="w-auto h-auto md:w-[50%]">
+                <h1 class="text-[25px] my-[20px] font-extrabold font-[georgia] md:text-[35px]">Start chatting with customers anytime, anywhere with Apex</h1>
+                <p class="text-[18px] text-gray-400 font-semibold text-center">Great software that allows you to chat from any place at any time without any interruption.</p>
+                <button class="bg-orange-500 font-bold text-white py-2 rounded text-center my-[20px] px-3">Start Chatting now</button>
+            </div>
+
+            <div class="w-auto h-auto flex justify-center items-center">
+                <img src="/src/apex images/hero_user-b24913ef.png" alt="hero image" class="w-[300px] md:w-[500px]">
+            </div>
+
+        </section>
+
+
+        <section class="w-[100%] h-auto py-10 px-5">
+            <h2 class="text-center text-[30px] py-[10px] font-bold md:text-[40px]">Features for a better experience</h2>
+
+            <div class="w-auto h-auto md:grid grid-cols-3 gap-6 md:my-[20px] md:px-[20px]">
+
+                <div class="w-auto h-auto my-[15px]">
+                    <div class="md:flex justify-center items-center">
+                        <div class="flex justify-center items-center"><img src="/src/apex images/video.png" class="md:w-[100px]" alt="video image"></div>
+                        <div>
+                            <h3 class="text-center text-[25px] font-semibold py-[10px]">Video Messaging</h3>
+                            <p class="text-center text-[18px] text-gray-400">This software is very easy for you to manage. You can use it as you wish.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="w-auto h-auto my-[15px]">
+                    <div class="md:flex justify-center items-center">
+                        <div class="flex justify-center items-center"><img src="/src/apex images/time.png" class="md:w-[100px]" alt="time image"></div>
+                        <div>
+                            <h3 class="text-center text-[25px] font-semibold py-[10px]">Save your time</h3>
+                            <p class="text-center text-[18px] text-gray-400 ">This software is very easy for you to manage. You can use it as you wish.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="w-auto h-auto my-[15px]">
+                    <div class="md:flex justify-center items-center">
+                        <div class="flex justify-center items-center"><img src="/src/apex images/network.png" class="md:w-[100px]" alt="network image"></div>
+                        <div>
+                            <h3 class="text-center text-[25px] font-semibold py-[10px]">Keep safe and private</h3>
+                            <p class="text-center text-[18px] text-gray-400">This software is very easy for you to manage. You can use it as you wish.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="w-auto h-auto bg-gray-100 py-10 px-[20px] lg:px-[50px] md:grid grid-cols-2">
+            <img src="/src/apex images/video_call-410b20b6.png"  alt="video call image">
+
+            <div class="my-[20px] md:my-0 md:ml-[20px]">
+                <h3 class="text-[25px] md:text-[40px] font-bold text-center md:text-left py-[20px]">Meet your customers, with live video chat</h3>
+                <p class="text-[19px] font-semibold">Proin faucibus nibh et sagittis a. Lacinia purus ac amet pellentesque aliquam enim.</p>
+                <p class="py-5 font-[georgia]">Get paychecks up to two days early. Get a $20 bonus when you receive qualifying direct deposits</p>
+            </div>
+
+        </section>
+
+</body>
+</html>
