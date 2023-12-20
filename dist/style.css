@@ -806,6 +806,10 @@ video {
   font-family: georgia;
 }
 
+.font-\[kanit\] {
+  font-family: kanit;
+}
+
 .text-\[16px\] {
   font-size: 16px;
 }
